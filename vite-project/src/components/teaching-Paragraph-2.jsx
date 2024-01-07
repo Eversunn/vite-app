@@ -1,0 +1,14 @@
+export default function TeachingParagraph2({title ,description}){
+  return(
+    <>
+    <li>
+      <p>
+        <strong>
+          {title}
+        </strong>
+        {description}
+      </p>
+    </li>
+    </>
+  )
+}
